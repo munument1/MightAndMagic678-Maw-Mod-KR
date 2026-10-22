@@ -272,3 +272,10 @@ In addition to that there are some QoL changes:
 - Teleport: Town Portal and Lloyd beacon scrolls are not consumed on use
 - Master of all: You can learn many misc skills up to GM (Alchemy, Disarm Trap, Merchant, Identify Item/Monster, Repair)
 
+
+## 2026-10-22 최신 개발판과 한국어 4.5 안정판 구분
+
+- 한국어 배포용 `korean-localization-4.5` 브랜치는 **MAW 4.5 안정판 전용**이다. 최신 개발판의 Lua·테이블을 그대로 덮어쓰지 않는다.
+- 공식 개발판의 [2026-10-16 재생·명상 설명 수정](https://github.com/Malekitsu/Maw-Mod-MMMerge/commit/707ccb6a996bf8f6617946027ca8a404ad58f4d2)은 설명 문자열뿐 아니라 HP 재생 공식도 변경했다. 번역 문자열만 교체하면 실제 효과와 설명이 달라질 수 있다.
+- 최신 개발판 대응은 별도 버전으로 원본 소스, Lua 오버레이, 번역 카탈로그 및 LOD 수치 일치 여부를 함께 검증한 뒤 진행한다. 기존 4.5 번역 파일과 배포물은 유지한다.
+- 이 문서 갱신은 최신 개발판 지원 또는 인게임 검증 완료를 뜻하지 않는다.
